@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<project name="Mi_Proyecto" default="todo">
+
+   <target name="compila">
+      <javac srcdir="./src" destdir="./class"/>
+   </target>
+
+   <target name="documenta">
+      <javadoc sourcefiles="./src/" destdir="./doc" author="true" version="true"charset="utf8"/>
+
+</project>
